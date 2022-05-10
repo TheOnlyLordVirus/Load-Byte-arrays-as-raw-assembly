@@ -1,5 +1,9 @@
 namespace example
 {
+    using System;
+    using System.Windows.Forms;
+    using System.Reflection;
+
     public partial class MainForm : Form
     {
         private AppDomain = AppDomain.CreateDomain("asmDomain");
